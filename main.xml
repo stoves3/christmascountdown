@@ -1,0 +1,22 @@
+﻿<view height="250" width="350" onopen="View_onOpen()">
+  <img height="246" width="345" x="2" y="1" src="background.png" colorMultiply="#006510"
+   />
+  <img height="165" name="currentImage" width="221" x="60" y="18" src="christmas-tree.gif"
+   />
+  <label height="28" name="numDays" width="49" x="23" y="195" align="center"
+    bold="true" color="#FF0000" font="Arial" size="20" valign="middle"
+   >000
+  </label>
+  <label height="24" name="label1" width="244" x="74" y="196" align="right"
+    bold="true" color="#FF0000" font="Arial" size="15">Days Left 'Til Christmas!
+  </label>
+  <button height="34" name="backButton" width="26" x="16" y="103" downImage="LeftButton_Down.PNG"
+    image="LeftButton.PNG" overImage="LeftButton.png"/>
+  <button height="34" name="button1" width="26" x="297" y="103" downImage="RightButton_Down.PNG"
+    image="RightButton.PNG" overImage="RightButton.png"/>
+  <img height="41" name="img1" width="46" x="292" y="11" src="holly-bunch.gif"
+   />
+  <img height="41" name="img2" width="46" x="10" y="11" src="holly-bunch.gif"
+   />
+  <script src="main.js" />
+</view>
