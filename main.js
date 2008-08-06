@@ -45,7 +45,7 @@ function refreshPic() {
 
 view.beginAnimation(function() { setElementOpacity(currentImage.src); }, 255, 0, FADE_DURATION);
 
-currentImage.src = "pics\\" + picNum + ".png";
+currentImage.src = "http://www.stoveschristmasimages.com/picture_library/" + picNum + ".png";
 
 view.beginAnimation(function() { setElementOpacity(currentImage.src); }, 0, 255, FADE_DURATION);
 
