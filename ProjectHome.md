@@ -1,0 +1,1 @@
+Count down the number of days until Christmas with the Christmas Countdown google gadget. Optionally scroll through the Christmas pictures.
